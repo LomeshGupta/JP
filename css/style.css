@@ -683,6 +683,10 @@ pre code {
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
+  .service:hover
+  {
+    background-color: #007bff;
+  }
 }
 
 .no-gutters {
@@ -7913,6 +7917,7 @@ button.bg-dark:focus {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
   /* overflow: auto; */
   /* clip-path: inset(0); */
+  width: 100%;
   -webkit-transition: all 0.3s;
 -moz-transition: all 0.3s;
 -ms-transition: all 0.3s;
@@ -7927,6 +7932,7 @@ transition: all 0.3s;
   opacity: 90%;
   width: 100%;
 }
+
 
 .shadow-lg {
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
