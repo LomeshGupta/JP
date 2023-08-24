@@ -2867,8 +2867,8 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #721c24;
-  border-color: #721c24;
+  color: white;
+  border-color: whitesmoke;
 }
 
 .btn-outline-primary:hover {
@@ -7912,6 +7912,14 @@ button.bg-dark:focus {
 .shadow {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
+.fixed
+{
+  position: fixed;
+  top:0; left:0;
+  z-index: 9999;
+  opacity: 90%;
+  width: 100%;
+}
 
 .shadow-lg {
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
@@ -9936,8 +9944,12 @@ button.bg-dark:focus {
 }
 
 .text-primary {
+  color: whitesmoke !important;
+  /* font-size: 70%; */
+}
+.text-primary2 {
   color: #721c24 !important;
-  font-size: 70%;
+  /* font-size: 70%; */
 }
 
 a.text-primary:hover,
@@ -9946,6 +9958,9 @@ a.text-primary:focus {
 }
 @media (max-width: 767px) {
   .text-primary {
+    display: none;
+  }
+  .text-primary2 {
     display: none;
   }
 }

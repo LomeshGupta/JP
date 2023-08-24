@@ -36,7 +36,7 @@
 
   <body>
     <!-- Navbar Start -->
-    <div class="container-fluid bg-light position-relative shadow">
+    <div class="container-fluid bg-light shadow">
       <nav
         class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0 px-lg-5"
       >
@@ -47,7 +47,7 @@
         >
           <!-- <i class="flaticon-043-teddy-bear"></i> -->
           <img class="iconnew" src = "img/Ma-saraswati.png">
-          <span class="text-primary" style="size: 20px;">J.P. International School</span>
+          <span class="text-primary2" style="size: 20px;">J.P. International School</span>
         </a>
         <button
           type="button"
@@ -824,8 +824,8 @@
             class="navbar-brand font-weight-bold text-primary m-0 mb-4 p-0"
             style="font-size: 40px; line-height: 40px"
           >
-            <i class="flaticon-043-teddy-bear"></i>
-            <span class="text-white">J.P. International School</span>
+          <img class="icon" style="width: 15%;"  src = "img/Ma-saraswati.png">
+            <span class="text-white" style="font-size: 50%;">J.P. International School</span>
           </a>
           <p>
             we believe that every child is unique and deserves an education that nurtures their individuality, fosters creativity, and ignites a passion for learning. Our innovative approach to kids' education is designed to empower young minds, setting them on a path of discovery and lifelong success.
@@ -845,20 +845,20 @@
             ></a>
             <a
               class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
-              style="width: 38px; height: 38px"
+              style="width: 38px; height: 38px; color:white;"
               href="#"
               ><i class="fab fa-linkedin-in"></i
             ></a>
             <a
               class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
-              style="width: 38px; height: 38px"
+              style="width: 38px; height: 38px; color: white;"
               href="#"
               ><i class="fab fa-instagram"></i
             ></a>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 mb-5">
-          <h3 class="text-primary mb-4">Get In Touch</h3>
+          <h3 class="text-white mb-4">Get In Touch</h3>
           <div class="d-flex">
             <h4 class="fa fa-map-marker-alt text-primary"></h4>
             <div class="pl-3">
@@ -940,16 +940,8 @@
       >
         <p class="m-0 text-center text-white">
           &copy;
-          <a class="text-primary font-weight-bold" href="#">Your Site Name</a>.
+          <a class="text-primary font-weight-bold" href="#">JPShool</a>.
           All Rights Reserved.
-
-          <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-          Designed by
-          <a class="text-primary font-weight-bold" href="https://htmlcodex.com"
-            >HTML Codex</a
-          >
-          <br />Distributed By:
-          <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
         </p>
       </div>
     </div>
@@ -973,6 +965,15 @@
     <script src="mail/contact.js"></script>
 
     <!-- Template Javascript -->
+    <script>
+      $(window).scroll(function(){
+  var shadow= $('.shadow'),
+      scroll = $(window).scrollTop();
+
+  if (scroll >= 100) shadow.addClass('fixed');
+  else shadow.removeClass('fixed');
+});
+      </script>
     <script src="js/main.js"></script>
   </body>
 </html>
