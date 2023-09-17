@@ -566,6 +566,19 @@ mark,
   max-width: 100%;
   height: auto;
 }
+.img-fluid-founder
+{
+  width: 60%;
+}
+@media (max-width: 575.98px)
+{
+  .img-fluid-founder
+  {
+    /* border: #000; */
+    width: 100%;
+    height: auto;
+  }
+}
 
 .img-thumbnail {
   padding: 0.25rem;
